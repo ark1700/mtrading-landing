@@ -1,0 +1,101 @@
+.free-trading__wrap {
+  padding-bottom: 320px;
+  background-image: url("../img/free-trading-img.png");
+  background-repeat: no-repeat;
+  background-size: 280px auto;
+  background-position: center bottom;
+}
+
+@media (min-width: $screen-md) {
+  .free-trading {
+    background-image: url("../img/free-trading-bg.svg");
+    background-repeat: no-repeat;
+    background-size: 300px auto;
+    background-position: bottom 0 left 90%;
+    overflow: hidden;
+  }
+
+  .free-trading__wrap {
+    padding-bottom: 50px;
+    background-position: center right 40px;
+    position: relative;
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50px;
+      left: -70px;
+      width: 200px;
+      height: 100px;
+      background-image: url("../img/free-trading-bg-2.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    &::after {
+      left: auto;
+      top: 100px;
+      right: -50px;
+      width: 100px;
+      height: 50px;
+    }
+  }
+}
+
+@media (min-width: $screen-lg) {
+  .free-trading {
+    background-position: bottom 50px left 90%;
+    background-size: 500px auto;
+  }
+
+  .free-trading__wrap {
+    padding-bottom: 140px;
+    background-position: top 140px right 60px;
+    background-size: 500px auto;
+
+    &::before {
+      width: 500px;
+      height: 250px;
+      top: 90px;
+      left: -290px;
+    }
+
+    &::after {
+      width: 150px;
+      height: 750px;
+      top: 200px;
+      right: -270px;
+    }
+  }
+}
+
+
+@media (min-width: $screen-xl) {
+  .free-trading {
+    background-position: bottom 40px left 90%;
+    background-size: 900px auto;
+  }
+
+  .free-trading__wrap {
+    padding-top: 316px;
+    padding-bottom: 190px;
+    background-position: top 309px right 202px;
+    background-size: 625px auto;
+    position: relative;
+
+    &::before {
+      width: 441px;
+      height: 441px;
+      top: 180px;
+      left: -350px;
+    }
+
+    &::after {
+      width: 197px;
+      height: 197px;
+      top: 370px;
+      right: -160px;
+    }
+  }
+}

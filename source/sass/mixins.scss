@@ -1,0 +1,27 @@
+@mixin center-block {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin container {
+  margin: 0 auto;
+  max-width: $screen-sm;
+  padding: 60px 20px;
+  box-sizing: border-box;
+
+  @media (min-width: $screen-md) {
+    max-width: $screen-md;
+    padding: 70px 40px;
+  }
+
+  @media (min-width: $screen-lg) {
+    max-width: $screen-lg;
+    padding: 160px 40px;
+  }
+
+  @media (min-width: $screen-xl) {
+    max-width: $screen-xl;
+    padding: 160px 240px;
+  }
+}

@@ -1,0 +1,38 @@
+@import "fonts";
+@import "variables";
+@import "mixins";
+
+@import "blocks/common";
+@import "blocks/animations";
+@import "blocks/header";
+@import "blocks/free-trading";
+@import "blocks/benefits";
+@import "blocks/experience";
+// @import "blocks/pricing";
+// @import "blocks/pricing-card";
+// @import "blocks/video";
+// @import "blocks/slick";
+// @import "blocks/testimonials";
+// @import "blocks/feedback";
+// @import "blocks/download";
+// @import "blocks/footer";
+// @import "blocks/up-btn.scss";
+
+body {
+  margin: 0;
+  font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+  color: $black;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: $screen-md) {
+  body {
+    font-size: 24px;
+  }
+}

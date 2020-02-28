@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1100 30" style="enable-background:new 0 0 1100 30;" xml:space="preserve">
+<style type="text/css">
+	.st0{filter:url(#Adobe_OpacityMaskFilter);}
+	.st1{filter:url(#Adobe_OpacityMaskFilter_1_);}
+	.st2{mask:url(#SVGID_1_);fill:url(#SVGID_2_);}
+	.st3{fill:url(#SVGID_3_);}
+</style>
+<g>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="0.3" y="1" width="1027.7" height="28.7">
+			<feFlood  style="flood-color:white;flood-opacity:1" result="back"/>
+			<feBlend  in="SourceGraphic" in2="back" mode="normal"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="0.3" y="1" width="1027.7" height="28.7" id="SVGID_1_">
+		<g class="st0">
+			<defs>
+				<filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="0.3" y="1" width="1027.7" height="28.7">
+					<feFlood  style="flood-color:white;flood-opacity:1" result="back"/>
+					<feBlend  in="SourceGraphic" in2="back" mode="normal"/>
+				</filter>
+			</defs>
+			<mask maskUnits="userSpaceOnUse" x="0.3" y="1" width="1027.7" height="28.7" id="SVGID_1_">
+				<g class="st1">
+				</g>
+			</mask>
+			
+				<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="681.206" y1="14.5604" x2="1636.4385" y2="14.5604" gradientTransform="matrix(-1.0759 0 0 -1.0759 1760.9113 31.0074)">
+				<stop  offset="0" style="stop-color:#FFFFFF"/>
+				<stop  offset="0.8171" style="stop-color:#2F2F2F"/>
+				<stop  offset="1" style="stop-color:#000000"/>
+			</linearGradient>
+			<polygon class="st2" points="0.3,1 946,1 969.4,24.5 1028,24.5 1028,29.7 967.3,29.7 943.8,6.2 0.3,6.2 			"/>
+		</g>
+	</mask>
+	
+		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="681.206" y1="14.5604" x2="1636.4385" y2="14.5604" gradientTransform="matrix(-1.0759 0 0 -1.0759 1760.9113 31.0074)">
+		<stop  offset="0" style="stop-color:#F1ECF4"/>
+		<stop  offset="0.8171" style="stop-color:#F3EDF5"/>
+		<stop  offset="1" style="stop-color:#F5EDF4"/>
+	</linearGradient>
+	<polygon class="st3" points="0.3,1 946,1 969.4,24.5 1028,24.5 1028,29.7 967.3,29.7 943.8,6.2 0.3,6.2 	"/>
+</g>
+</svg>

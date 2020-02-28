@@ -1,0 +1,145 @@
+.header {
+  background-color: $dark-purple;
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__wrap {
+  position: relative;
+  padding-bottom: 200px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 142px;
+    height: 155px;
+    background-image: url("../img/cow.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+  }
+}
+
+.header__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+
+.header__title {
+  margin-bottom: 40px;
+  color: $white;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.header__descr {
+  margin-bottom: 40px;
+  color: $white;
+}
+
+@media (min-width: $screen-md) {
+  .header__wrap {
+    padding-bottom: 400px;
+    background-size: auto 400px;
+    padding-bottom: 280px;
+    background-size: auto 250px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    animation-name: bg-animation;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+
+    &::before {
+      width: 100px;
+      height: 160px;
+      right: 260px;
+      background-size: contain;
+    }
+  }
+
+  .header__logo {
+    width: 255px;
+    margin-bottom: 80px;
+  }
+
+  .header__title,
+  .header__descr {
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: $screen-lg) {
+  .header__wrap {
+    padding-top: 50px;
+    padding-bottom: 150px;
+    background-size: 600px auto;
+    background-position: bottom right 40px;
+    color: $white;
+    position: relative;
+
+    &:before {
+      width: 270px;
+      height: 269px;
+      right: 60px;
+    }
+  }
+
+  .header__logo {
+    margin-left: 0;
+  }
+
+  .header__title {
+    width: 550px;
+    padding-top: 0;
+    margin-top: 150px;
+    margin-bottom: 60px;
+    animation: none;
+    font-size: 52px;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  .header__descr {
+    width: 350px;
+    margin-bottom: 67px;
+  }
+}
+
+@media (min-width: $screen-xl) {
+  .header__wrap{
+    padding-top: 143px;
+    padding: 143px 238px 407px;
+    background-size: 1064px auto;
+    background-position: bottom right 20px;
+
+    &::before {
+      width: 470px;
+      height: 494px;
+      right: 36px;
+    }
+  }
+
+  .header__title {
+    margin-top: 250px;
+    margin-bottom: 75px;
+    width: 800px;
+    font-size: 82px;
+  }
+
+  .header__descr {
+    width: 600px;
+    margin-bottom: 94px;
+  }
+}
+
+

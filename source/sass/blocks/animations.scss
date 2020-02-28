@@ -1,0 +1,119 @@
+@keyframes bg-animation {
+  0% {
+    background-image: url("../img/man-1.png");
+  }
+  30% {
+    background-image: url("../img/man-1.png");
+  }
+  33% {
+    background-image: url("../img/man-2.png");
+  }
+  63% {
+    background-image: url("../img/man-2.png");
+  }
+  66% {
+    background-image: url("../img/man-3.png");
+  }
+  97% {
+    background-image: url("../img/man-3.png");
+  }
+  100% {
+    background-image: url("../img/man-1.png");
+  }
+}
+
+@keyframes experience-animation {
+  0% {
+    background-image: url("../img/experience-01.png"), url("../img/experience-bg-2.png");
+    background-position: right 149px top 340px,right 20px top 320px;
+    background-size: 237px auto, 500px auto;
+  }
+  23% {
+    background-image: url("../img/experience-01.png"), url("../img/experience-bg-2.png");
+    background-position: right 149px top 340px,right 20px top 320px;
+    background-size: 237px auto, 500px auto;
+  }
+  25% {
+    background-image: url("../img/experience-02.png"), url("../img/experience-bg-2.png");
+    background-position: right 130px top 345px,right 20px top 324px;
+    background-size: 251px auto, 500px auto;
+  }
+  48% {
+    background-image: url("../img/experience-02.png"), url("../img/experience-bg-2.png");
+    background-position: right 130px top 345px,right 20px top 324px;
+    background-size: 251px auto, 500px auto;
+  }
+  50% {
+    background-image: url("../img/experience-03.png"), url("../img/experience-bg-2.png");
+    background-position: right 130px top 345px,right 20px top 324px;
+    background-size: 251px auto, 500px auto;
+  }
+  73% {
+    background-image: url("../img/experience-03.png"), url("../img/experience-bg-2.png");
+    background-position: right 130px top 345px,right 20px top 324px;
+    background-size: 251px auto, 500px auto;
+  }
+  75% {
+    background-image: url("../img/experience-04.png"), url("../img/experience-bg-2.png");
+    background-position: right 134px top 331px,right 20px top 324px;
+    background-size: 251px auto, 500px auto;
+  }
+  98% {
+    background-image: url("../img/experience-04.png"), url("../img/experience-bg-2.png");
+    background-position: right 134px top 331px,right 20px top 324px;
+    background-size: 251px auto, 500px auto;
+  }
+  100% {
+    background-image: url("../img/experience-01.png"), url("../img/experience-bg-2.png");
+    background-position: right 149px top 340px,right 20px top 320px;
+    background-size: 237px auto, 500px auto;
+  }
+}
+
+@keyframes experience-animation-xl {
+  0% {
+    background-image: url("../img/experience-01.png"), url("../img/experience-bg-2.png");
+    background-position: right 293px top 272px,right 67px top 241px;
+    background-size: 421px auto,881px auto;
+  }
+  23% {
+    background-image: url("../img/experience-01.png"), url("../img/experience-bg-2.png");
+    background-position: right 293px top 272px,right 67px top 241px;
+    background-size: 421px auto,881px auto;
+  }
+  25% {
+    background-image: url("../img/experience-02.png"), url("../img/experience-bg-2.png");
+    background-position: right 269px top 284px,right 67px top 241px;
+    background-size: 435px auto,881px;
+  }
+  48% {
+    background-image: url("../img/experience-02.png"), url("../img/experience-bg-2.png");
+    background-position: right 269px top 284px,right 67px top 241px;
+    background-size: 435px auto,881px;
+  }
+  50% {
+    background-image: url("../img/experience-03.png"), url("../img/experience-bg-2.png");
+    background-position: right 269px top 284px,right 67px top 241px;
+    background-size: 435px auto,881px;
+  }
+  73% {
+    background-image: url("../img/experience-03.png"), url("../img/experience-bg-2.png");
+    background-position: right 269px top 284px,right 67px top 241px;
+    background-size: 435px auto,881px;
+  }
+  75% {
+    background-image: url("../img/experience-04.png"), url("../img/experience-bg-2.png");
+    background-position: right 268px top 266px,right 67px top 242px;
+    background-size: 444px auto,881px;
+  }
+  98% {
+    background-image: url("../img/experience-04.png"), url("../img/experience-bg-2.png");
+    background-position: right 268px top 266px,right 67px top 242px;
+    background-size: 444px auto,881px;
+  }
+  100% {
+    background-image: url("../img/experience-01.png"), url("../img/experience-bg-2.png");
+    background-position: right 293px top 272px,right 67px top 241px;
+    background-size: 421px auto,881px auto;
+  }
+}

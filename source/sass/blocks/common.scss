@@ -1,0 +1,93 @@
+.container {
+  @include container;
+}
+
+.btn {
+  text-align: center;
+  margin: 0 auto;
+  padding: 11px 38px;
+  border: none;
+  border-radius: 22px;
+  background-color: $purple;
+  background-image: linear-gradient(to right, $purple-two 0%, #b14599 100%);
+  color: $white;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-shadow: 0 0 30px 0 rgba(177,69,153,.5);
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 40px;
+  color: $black-three;
+  font-family: "Gotham Pro";
+  font-size: 36px;
+  font-weight: 300;
+  letter-spacing: -2.88px;
+  line-height: 1;
+
+  b {
+    font-weight: 700;
+  }
+}
+
+.subtitle {
+  display: block;
+  margin-bottom: 16px;
+  color: rgba($purple-two, 0.5);
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 6.1px;
+}
+
+.descr {
+  margin-top: 0;
+  margin-bottom: 50px;
+  color: $black-two;
+  font-weight: 400;
+}
+
+@media (min-width: $screen-md) {
+  .btn {
+    margin: 0;
+  }
+
+  .content {
+    width: 400px;
+  }
+
+  .title {
+    font-size: 52px;
+  }
+
+  .subtitle {
+    margin-bottom: 22px;
+    font-size: 27px;
+  }
+
+  .descr {
+    margin-bottom: 116px;
+  }
+}
+
+
+@media (min-width: $screen-lg) {
+  .content {
+    width: 500px;
+  }
+
+  .title {
+    margin-bottom: 89px;
+    font-size: 82px;
+  }
+}
+
+@media (min-width: $screen-xl) {
+  .content {
+    width: 610px;
+  }
+}
