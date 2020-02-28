@@ -18,4 +18,4 @@ $ npm start
 
 **Demo:**
 
-https://ark1700.github.io/mtraiding/
+https://ark1700.github.io/mtrading/
